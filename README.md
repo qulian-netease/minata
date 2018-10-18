@@ -5,10 +5,10 @@
 1. 使用手机号进行注册后
 2. 进入控制台
 3. 创建应用
-![创建应用](/Users/sunligang/Documents/笔记博客图片资源/创建应用.png)
+![创建应用](images/创建应用.png)
 4. 获取AppKey和AppSecret
-![应用信息](/Users/sunligang/Documents/笔记博客图片资源/应用详情.png)
-5. 获取token
+![应用信息](images/应用详情.png)
+1. 获取token
 使用我们的注册的账户和密码包括刚刚的appkey和appsecret来获取token
 在这里我们使用的是开发者平台提供的sdk
 ```java
@@ -194,7 +194,7 @@ contract SupplyChain {
 }
 ```
 ### 在使用sdk进行编译和部署
-![编译部署](/Users/sunligang/Documents/笔记博客图片资源/编译部署流程.png)
+![编译部署](images/编译部署流程.png)
 #### 对应的hpyerchain.properties的配置
 由于在sdk上进行编译和部署则需要持久化编译产生的abi和bin已经部署后获得的合约地址
 于是我们在配置文件中配置相关的文件去保存这些内容
@@ -278,7 +278,7 @@ DeployConReturn deployConReturn = api.deployContract(ACCESS_TOKEN,
 ```
 
 ### 在开发者平台网页上进行部署合约
-![合约部署](/Users/sunligang/Documents/笔记博客图片资源/合约部署.png)
+![合约部署](images/合约部署.png)
 #### 对应的hyperchain配置
 由于已经部署好了合约则只需闯入abi和合约地址
 ```shell
