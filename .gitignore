@@ -1,4 +1,6 @@
 target
 *.iml
 .idea
-
+bin
+.project
+.classpath
