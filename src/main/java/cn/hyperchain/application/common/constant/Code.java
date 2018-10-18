@@ -7,7 +7,7 @@ package cn.hyperchain.application.common.constant;
 
 public enum Code {
     SUCCESS(0, "成功"),
-    INVOKE_FAIL(0, "成功");
+    INVOKE_FAIL(1, "失败");
 
 
 
