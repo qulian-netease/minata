@@ -6,3 +6,5 @@ bin
 .classpath
 .factorypath
 log
+.settings
+.vscode
